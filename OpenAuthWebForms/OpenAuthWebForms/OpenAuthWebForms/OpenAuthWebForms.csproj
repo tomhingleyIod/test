@@ -368,7 +368,6 @@
     <Compile Include="Clients\LinkedInCustomClient.cs" />
     <Compile Include="Clients\PersistentCookieOAuthTokenManagerCustom.cs" />
     <Compile Include="Clients\CustomTwitter.cs" />
-    <Compile Include="Clients\InMemoryTokenManager.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

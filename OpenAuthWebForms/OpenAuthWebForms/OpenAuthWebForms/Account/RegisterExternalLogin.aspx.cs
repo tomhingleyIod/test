@@ -146,7 +146,7 @@ namespace OpenAuthWebForms.Account
             {
                 // User is new, ask for their desired membership name
                 userName.Text = authResult.UserName;
-
+                //LinkedInClient
                 foreach (var x in authResult.ExtraData)
                 {
                     var li = new HtmlGenericControl("li");
