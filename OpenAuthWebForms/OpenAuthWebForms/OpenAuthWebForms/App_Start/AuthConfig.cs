@@ -14,9 +14,11 @@ namespace OpenAuthWebForms
             // application to support logging in via external services.
 
             OpenAuth.AuthenticationClients.Add("Facebook", () => new FacebookOAuth2Client("430032487095089",
-                                                                                          "eb9f9db3a2b62b15f695ed4052458413",
-                                                                                          new[]
-                                                                                              {"email", "user_about_me"}));
+                                                                                          "eb9f9db3a2b62b15f695ed4052458413"));
+
+            //OpenAuth.AuthenticationClients.Add("Facebook", () => new FacebookCustomClient("430032487095089",
+            //                                                                              "eb9f9db3a2b62b15f695ed4052458413"));
+
             OpenAuth.AuthenticationClients.Add("Twitter",
                                                () => new CustomTwitterClient(consumerKey: "kFc4rnvlWQIrPGG3Fnw",
                                                                              consumerSecret:

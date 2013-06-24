@@ -364,7 +364,7 @@
       <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Clients\CustomFacebook.cs" />
+    <Compile Include="Clients\FacebookCustomClient.cs" />
     <Compile Include="Clients\LinkedInCustomClient.cs" />
     <Compile Include="Clients\PersistentCookieOAuthTokenManagerCustom.cs" />
     <Compile Include="Clients\CustomTwitter.cs" />
